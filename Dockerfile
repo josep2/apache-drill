@@ -20,6 +20,6 @@ ENV DRILL_MAX_DIRECT_MEMORY=8G
 ENV DRILL_HEAP=4G  
 ENV DRILL_CLUSTER=drillbit1
 
-ENTRYPOINT /opt/drill/apache-drill-1.10.0/bin/runbit
+# ENTRYPOINT /opt/drill/apache-drill-1.10.0/bin/runbit
 
 EXPOSE 8047
