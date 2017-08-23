@@ -1,5 +1,5 @@
 ## Docker image for Apache Drill 1.4 in Distributed Mode ##
-Maintainer **Jowanza** Alex Bordei
+Maintainer **Jowanza**
 
 The following environment variables can be modified and have the following default values:
 ```
