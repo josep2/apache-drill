@@ -1,5 +1,5 @@
-## Docker image for Apache Drill 1.4 in Distributed Mode ##
-Maintainer **Jowanza**
+## Docker image for Apache Drill 1.10 in Distributed Mode Built For Kubernetes Deployments ##
+Maintainer **Jowanza Joseph**
 
 The following environment variables can be modified and have the following default values:
 ```
@@ -12,5 +12,8 @@ DRILL_CLUSTER=drillbit1
 ```
 The only **compulsory** variable is **ZOOKEEPER** which must be set to the *hostname:port*
 
-The default entrypoint is /opt/drill/apache-drill-1.4.0/bin/runbit 
+The default entrypoint is /opt/drill/apache-drill-1.10.0/bin/drillbit.sh run
+
+This repository is forked from bigstepinncs project.
+
 
