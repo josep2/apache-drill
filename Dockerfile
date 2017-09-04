@@ -12,6 +12,7 @@ RUN rm apache-drill-1.10.0.tar.gz
 #also use  DRILL_CLUSTER and ZOOKEEPER
 
 ADD drill-env.sh /opt/drill/apache-drill-1.10.0/conf/drill-env.sh
+ADD core-site.xml /opt/apache-drill-1.10.0/conf/core-site.xml
 
 ENV DRILL_LOG_DIR=/var/log/drill
 ENV DRILLBIT_LOG_PATH=/var/log/drill/drillbit.log
