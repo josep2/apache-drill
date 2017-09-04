@@ -1,4 +1,4 @@
-FROM java:openjdk-7-jre
+FROM java:openjdk-8-jre
 
 RUN mkdir -p /drill-scripts && \
     mkdir -p /opt/drill && \
