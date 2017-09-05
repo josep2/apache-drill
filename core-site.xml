@@ -2,17 +2,17 @@
 
     <property>
         <name>fs.s3a.access.key</name>
-        <value>myaccesskey</value>
+        <value>minio</value>
     </property>
 
     <property>
         <name>fs.s3a.secret.key</name>
-        <value>mysecretkey</value>
+        <value>minio123</value>
     </property>
 
     <property>
       <name>fs.s3a.endpoint</name>
-      <value>http://127.0.0.1:9000</value>
+      <value>http://10.0.0.145:9000</value>
     </property>
 
     <property>
