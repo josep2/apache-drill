@@ -12,7 +12,7 @@
 
     <property>
       <name>fs.s3a.endpoint</name>
-      <value>minio-service:9000</value>
+      <value>default/minio-service:9000</value>
     </property>
 
     <property>
